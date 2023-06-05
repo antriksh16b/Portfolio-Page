@@ -1,0 +1,235 @@
+body
+{
+    margin-top: 0px;
+}
+.section-1
+{
+    width: 100vw;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    display:flex;
+    gap: 50px;
+    
+}
+.top-card
+{
+    background-color: transparent;
+    height: 300px;
+    width: 300px;
+    margin-top: 4.2%;
+    
+}
+.card
+{
+    height: 100%;
+    width:100%;
+    position: relative;
+    perspective: 1000px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 8px;
+}
+.front img ,.back img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+} 
+.front,.back
+{
+    height:100%;
+    width: 100%;
+    backface-visibility: hidden;
+}
+.back
+{
+    position: absolute;
+    top: 0px;
+    transform: rotateY(-180deg);
+    transition: all 0.2s ease-in-out;  
+}
+.top-card:hover  .back
+{
+    transform: rotateY(0deg);
+}
+.top-card:hover  .front
+{
+    transform: rotateY(180deg);
+}
+.front
+{
+    transform: rotateY(0deg);
+    transition: all 0.2s ease-in-out;
+}
+.nd1
+{
+    position: relative;
+    top: 70px;
+    font-weight: bolder;
+}
+.ndh1
+{
+    font-size: 2.4rem;
+    font-weight: bolder;
+}
+strong
+{
+    position: absolute;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    top: 70px;
+}
+.personal
+{
+    padding-left: 45px;
+    margin-top: 0px;
+}
+.personalh1
+{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: ;
+}
+.personalh3
+{
+    font-size: 1.5rem;
+}
+a
+{
+    color: black;
+}
+.top-bar
+{
+    height:250px; 
+    width:100vw;
+    background-color: rgb(142, 121, 121);
+    position: absolute;
+}
+.section-2 h3
+{
+    font-size: 1.5rem;
+    margin-left: 2%;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+}
+/* hr
+{
+    height:0px;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 10px;
+    width: 5%;
+    border-color: brown;
+} */
+hr
+{
+    border-color: rgb(174, 170, 170);
+    border-style: solid;
+    border-width: 5px;
+    margin-bottom:0px;
+}
+.section-3 hr
+{
+    border-width: 0.5px;
+    border-color: rgb(190, 189, 189);
+}
+.section-3
+{
+    margin-left: 50px;
+} 
+.section-3 h1
+{
+    margin-top: 0px;
+    font-size: 2.7rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.section-3 h3
+{
+    font-size:1.7rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.section-4
+{
+    margin-left:50px;
+}
+.section-4 h1
+{
+    font-size:2.7rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.section-4 h3
+{
+    font-size:1.7rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.section-4 hr
+{
+    border-width: 0.5px;
+    border-color: rgb(190, 189, 189);
+    white-space: nowrap;
+}
+.section-5 h1
+{
+    font-size:2.7rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.section-5
+{
+    margin-left: 50px;
+}
+
+.write
+{
+    display: inline-block;
+    font-size: 1.5rem;
+    width: 15%;
+}
+.follow
+{
+    display: inline-block;
+    font-size: 1.5rem;
+    width: 15%;
+}
+.call
+{
+    display: inline-block;
+    font-size: 1.5rem;
+    width: 14.2%;
+}
+.section-5 h2
+{
+    display: inline-block;
+    font-size:1.5rem;
+    width: 55%;
+}
+.contact
+{
+    margin-left: 53.8%;
+    width: 11.5%;
+    display: inline-block;
+    font-size: 1.3rem;
+}
+.email
+{
+    font-size: 1.2rem;
+    display: inline-block;
+    width: 20.8%;
+}
+.image
+{
+    display: inline-block;
+    font-size: 1.5rem;
+}
+.section-5 h3
+{
+    font-family: 'Montserrat', sans-serif;
+}
+h2
+{
+
+}
